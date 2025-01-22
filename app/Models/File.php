@@ -11,4 +11,12 @@ class File extends Model
     use HasFactory;
 
     protected $fillable = ['name', 'path', 'disk'];
+
+    public function __toString()
+    {
+        // ensure consistent output format
+        $data = $this->toArray();
+        ksort($data);
+        return json_encode($data);
+    }
 }

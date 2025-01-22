@@ -23,7 +23,7 @@ class TokenCheck
 
         //check if auth is set
         if(!$authHeader){
-            abort(401);
+            abort(403, 'Unauthorized');
         }
        
         // Simple check for Bearer token format and validity
