@@ -5,7 +5,7 @@
 1. **Clone the Repository**  
    Clone this repository to your local environment:
    ```bash
-   git@github.com:ArtificiallyLTD/Laravel-Coding-Test.git
+   git clone git@github.com:robuedi/Laravel-Coding-Test.git
    cd Laravel-Coding-Test
     ```
 2. **Setup the Project**
