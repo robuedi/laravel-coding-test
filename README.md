@@ -15,7 +15,7 @@ You are tasked with building a **File Management API**. This API will allow user
 1. **Clone the Repository**  
    Clone this repository to your local environment:
    ```bash
-   git clone git@github.com:robuedi/Laravel-Coding-Test.git
+   git clone git@github.com:robuedi/laravel-coding-test.git
    cd Laravel-Coding-Test
     ```
 2. **Setup the Project**
